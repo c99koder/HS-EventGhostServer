@@ -1,0 +1,133 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Execute callbacks using an EventGhost-compatible HTTP API",
+    "type" : "Module",
+    "Deprecated" : [
+
+    ],
+    "Constructor" : [
+
+    ],
+    "doc" : "Execute callbacks using an EventGhost-compatible HTTP API",
+    "Method" : [
+      {
+        "doc" : "Starts the HTTP server\n\nParameters:\n * port - Port number to listen on\n\nReturns:\n * None",
+        "stripped_doc" : [
+          "Starts the HTTP server",
+          ""
+        ],
+        "name" : "start",
+        "parameters" : [
+          " * port - Port number to listen on",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "EventGhostServer:start(port)",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "desc" : "Starts the HTTP server",
+        "def" : "EventGhostServer:start(port)"
+      },
+      {
+        "doc" : "Registers a handler for a specific event\n\nParameters:\n * event - A string specifying the event name to listen to\n * handler - A function that will be called when the event happens. It should accept two parameters:\n   * event - A string containing the name of the event that occured\n   * value - An optional value that was included with the event\n\nReturns:\n * None",
+        "stripped_doc" : [
+          "Registers a handler for a specific event",
+          ""
+        ],
+        "name" : "registerHandler",
+        "parameters" : [
+          " * event - A string specifying the event name to listen to",
+          " * handler - A function that will be called when the event happens. It should accept two parameters:",
+          "   * event - A string containing the name of the event that occured",
+          "   * value - An optional value that was included with the event",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "EventGhostServer:registerHandler(event, handler)",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "desc" : "Registers a handler for a specific event",
+        "def" : "EventGhostServer:registerHandler(event, handler)"
+      }
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+      {
+        "doc" : "Registers a handler for a specific event\n\nParameters:\n * event - A string specifying the event name to listen to\n * handler - A function that will be called when the event happens. It should accept two parameters:\n   * event - A string containing the name of the event that occured\n   * value - An optional value that was included with the event\n\nReturns:\n * None",
+        "stripped_doc" : [
+          "Registers a handler for a specific event",
+          ""
+        ],
+        "name" : "registerHandler",
+        "parameters" : [
+          " * event - A string specifying the event name to listen to",
+          " * handler - A function that will be called when the event happens. It should accept two parameters:",
+          "   * event - A string containing the name of the event that occured",
+          "   * value - An optional value that was included with the event",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "EventGhostServer:registerHandler(event, handler)",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "desc" : "Registers a handler for a specific event",
+        "def" : "EventGhostServer:registerHandler(event, handler)"
+      },
+      {
+        "doc" : "Starts the HTTP server\n\nParameters:\n * port - Port number to listen on\n\nReturns:\n * None",
+        "stripped_doc" : [
+          "Starts the HTTP server",
+          ""
+        ],
+        "name" : "start",
+        "parameters" : [
+          " * port - Port number to listen on",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "EventGhostServer:start(port)",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "desc" : "Starts the HTTP server",
+        "def" : "EventGhostServer:start(port)"
+      }
+    ],
+    "name" : "EventGhostServer"
+  }
+]
