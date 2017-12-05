@@ -13,7 +13,7 @@ Download and extract the latest version of the module from the [Releases page](h
 
 While the server is running, it will log the incoming event names to the console to quickly create new event handlers.  Below is an example Lua script using this module to react to various events from a SmartThings hub:
 
-```
+```Lua
 speech = hs.speech.new()
 eg = hs.loadSpoon('EventGhostServer')
 
